@@ -64,6 +64,77 @@ namespace TafeSAEnrolmentSystem
                 "\nDate Registered: " + DateRegistered;
         }
 
-       
+        /// <summary>
+        /// override the Equals method to compare two Student objects based on their StudentId property
+        /// </summary>
+        /// <param name="obj"></param>
+        /// <returns></returns>
+        public override bool Equals(object obj)
+        {
+            if (obj == null) // null check
+
+                return false;
+
+            if (ReferenceEquals(obj, this)) // reference check
+
+                return true;
+
+            if (obj.GetType() != this.GetType())// check different object types
+
+                return false;
+
+            Student student = (Student)obj;
+            return student.StudentId == this.StudentId;
+        }
+
+        /// <summary>
+        /// get hash code for the student object based on the StudentId property
+        /// </summary>
+        /// <returns></returns>
+        public override int GetHashCode()
+        {
+            return this.StudentId.GetHashCode();
+        }
+
+        /// <summary>
+        /// override the equality operator to compare two Student objects based on their StudentId property
+        /// </summary>
+        /// <param name="student1"></param>
+        /// <param name="student2"></param>
+        /// <returns>bool</returns>
+        public static bool operator ==(Student student1, Student student2)
+        {
+            return object.Equals(student1, student2);
+        }
+
+        /// <summary>
+        /// override the inequality operator to compare two Student objects based on their StudentId property
+        /// </summary>
+        /// <param name="student1"></param>
+        /// <param name="student2"></param>
+        /// <returns>bool</returns>
+        public static bool operator !=(Student student1, Student student2)
+        {
+            return !object.Equals(student1, student2);
+        }
+
+        /// <summary>
+        /// equals method to compare two objects for equality based on their StudentId property
+        /// </summary>
+        /// <param name="obj1"></param>
+        /// <param name="obj2"></param>
+        /// <returns>bool</returns>
+        public static bool Equals(object obj1, object obj2)
+        {
+            if (obj1 == obj2)
+                return true;
+            if (obj1 == null || obj2 == null)
+                return false;
+            else
+                return obj1.Equals(obj2);
+
+
+        }
+
     }
 }
