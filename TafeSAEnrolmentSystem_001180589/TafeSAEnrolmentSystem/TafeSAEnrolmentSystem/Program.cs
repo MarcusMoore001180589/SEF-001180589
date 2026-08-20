@@ -83,8 +83,16 @@ namespace TafeSAEnrolmentSystem
             Console.WriteLine("\nTesting 1 arg\n" + student2);
 
             Student student3 = new Student("Marcus", "sloth@someemail.com", "+0101010101", "00112233", "Cert 3", new DateTime(2026, 06, 11));
-            
-            
+
+
+            Console.WriteLine("\nTesting the all arg \n" + student3);
+
+            Console.WriteLine("\nTesting Equals with hash codes\n");
+            Console.WriteLine("student3 ID and hash code= (" + student3.StudentId + " " + student3.GetHashCode() + ").Equals(student2 id and hash code)  = (" + student2.StudentId + " " + student2.GetHashCode() + ") " + student3.Equals(student2));
+            Console.WriteLine("student3 ID and hash code= (" + student3.StudentId + " " + student3.GetHashCode() + ").Equals(student1 id and hash code) = (" + student1.StudentId + " " + student1.GetHashCode() + ") " + student3.Equals(student1));
+
+
+
 
         }
     }
