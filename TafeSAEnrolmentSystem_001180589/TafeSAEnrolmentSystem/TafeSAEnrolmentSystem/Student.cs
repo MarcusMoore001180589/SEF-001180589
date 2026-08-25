@@ -68,7 +68,8 @@ namespace TafeSAEnrolmentSystem
         }
 
         /// <summary>
-        /// override the Equals method to compare two Student objects based on their StudentId property
+        /// Determines whether the current Student is equal to another object by 
+        /// comparing StudentId, including null, reference, and type checks.
         /// </summary>
         /// <param name="obj"></param>
         /// <returns>boolean</returns>
@@ -122,8 +123,8 @@ namespace TafeSAEnrolmentSystem
         }
 
         /// <summary>
-        /// equals method to compare two objects for equality based on their StudentId property aswell as null and reference checks
-        /// this is  through the operator overloads for == and != to compare two Student objects based on their StudentId property
+        /// Compares two objects for equality with null and reference checks, 
+        /// then delegates to the instance Equals method.
         /// </summary>
         /// <param name = "obj1" ></ param >
         /// < param name="obj2"></param>
