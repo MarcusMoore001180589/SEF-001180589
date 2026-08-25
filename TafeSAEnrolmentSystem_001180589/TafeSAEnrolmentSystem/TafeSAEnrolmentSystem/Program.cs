@@ -19,7 +19,8 @@ namespace TafeSAEnrolmentSystem
             address1.Suburb = "Catalogue";
             address1.Postcode = "3343";
             address1.State = "SA";
-            Console.WriteLine("\nTesting the getter and setters \n" + address1);
+            Console.WriteLine("\nTesting the getter and setters \n" + "Street Number: " + address1.StreetNum + "\n" + "Street Name: " + address1.StreetName + "\n" + "Suburb: " + address1.Suburb + "\n" 
+                + "Postcode: " + address1.Postcode + "\n" + "State: " + address1.State);
 
             Address address2 = new Address("16", "Valuables Cove", "Attened", "5757", "WA");
 
@@ -35,7 +36,8 @@ namespace TafeSAEnrolmentSystem
             subject1.SubjectCode = "WEB4040";
             subject1.SubjectName = "Making A Website";
             subject1.Cost = 10.20f;
-            Console.WriteLine("\nTesting the getter and setters \n" + subject1);
+            Console.WriteLine("\nTesting the getter and setters \n" + "Subject Code: " + subject1.SubjectCode + 
+                "\n" + "Subject Name: " + subject1.SubjectName + "\n" + "Cost: " + subject1.Cost);
             Subject subject2 = new Subject("PROG5190", "Making a Game", 199.99f);
 
             Console.WriteLine("\nTesting All arg \n" + subject2);
@@ -49,7 +51,9 @@ namespace TafeSAEnrolmentSystem
             enrollment1.DateEnrolled = new DateTime(2026, 11, 11);
             enrollment1.Grade = "B";
             enrollment1.Semester = "2";
-            Console.WriteLine("\nTesting the getter and setters \n" + enrollment1);
+            enrollment1.Subject = subject1;
+            Console.WriteLine("\nTesting the getter and setters \n" + "Date Enrolled: " + enrollment1.DateEnrolled + "\n" + "Grade: " 
+                + enrollment1.Grade + "\n" + "Semester: " + enrollment1.Semester + "\n" + "Subject: " + enrollment1.Subject);
             Enrollment enrollment2 = new Enrollment(new DateTime(2025, 01, 01), "Making a Game", "4", subject2);
             Console.WriteLine("\nTesting All arg \n" + enrollment2);
 
@@ -61,7 +65,9 @@ namespace TafeSAEnrolmentSystem
             person1.Name = "Ben";
             person1.Email = "Ben@10.com";
             person1.PhoneNumber = "0909090909";
-            Console.WriteLine("\nTesting the getter and setters \n" + person1);
+            person1.Address = address1;
+            Console.WriteLine("\nTesting the getter and setters \n" + "Name: " + person1.Name + "\n" + "Email: " + person1.Email + 
+                "\n" + "Phone Number: " + person1.PhoneNumber + "\n" + "Address: " + person1.Address);
             Person person2 = new Person("Sid", "Sid@Sloth.com", "9988999", address2);
             Console.WriteLine("\nTesting All arg \n" + person2);
 
@@ -73,26 +79,35 @@ namespace TafeSAEnrolmentSystem
 
             student1.StudentId = "00112233";
             student1.Program = "Vert 4";
-            student1.DateRegistered = new DateTime(1999, 11, 11);
+            student1.DateRegistered = new DateTime(2025, 11, 11);
+            student1.Enrollment = enrollment1;
 
 
-            Console.WriteLine("\nTesting the getter and setters \n" + student1);
+            Console.WriteLine("\nTesting the getter and setters \n" + "Student ID: " + student1.StudentId + "\n" + "Program: " + student1.Program + 
+                "\n" + "Date Registered: " + student1.DateRegistered + "\n"+ "Enrollment: " + student1.Enrollment );
 
             Student student2 = new Student();
             student2.StudentId = "99887766"; 
             Console.WriteLine("\nTesting 1 arg\n" + student2);
 
-            Student student3 = new Student("Marcus", "sloth@someemail.com", "+0101010101", "00112233", "Cert 3", new DateTime(2026, 06, 11));
+            Student student3 = new Student("Marcus", "sloth@someemail.com", "+0101010101", "00112233", address2, 
+                "Cert 3", new DateTime(2026, 06, 11), enrollment2);
 
 
             Console.WriteLine("\nTesting the all arg \n" + student3);
 
             Console.WriteLine("\nTesting Equals with hash codes\n");
-            Console.WriteLine("student3 ID and hash code= (" + student3.StudentId + " " + student3.GetHashCode() + ").Equals(student2 id and hash code)  = (" + student2.StudentId + " " + student2.GetHashCode() + ") " + student3.Equals(student2));
-            Console.WriteLine("student3 ID and hash code= (" + student3.StudentId + " " + student3.GetHashCode() + ").Equals(student1 id and hash code) = (" + student1.StudentId + " " + student1.GetHashCode() + ") " + student3.Equals(student1));
+            Console.WriteLine("student3 ID and hash code= (" + student3.StudentId + " " + student3.GetHashCode() + 
+                ").Equals(student2 id and hash code)  = (" + student2.StudentId + " " + student2.GetHashCode() + ") " + student3.Equals(student2));
 
+            Console.WriteLine("student3 ID  (" + student3.StudentId + 
+                ").Equals(student2,student3)   = (" + student2.StudentId + ") " + Equals(student2, student3));
 
+            Console.WriteLine("student3 ID and hash code= (" + student3.StudentId + " " + student3.GetHashCode() + 
+                ").Equals(student1 id and hash code) = (" + student1.StudentId + " " + student1.GetHashCode() + ") " + student3.Equals(student1));
 
+            Console.WriteLine("student3 ID  (" + student3.StudentId + 
+                ").Equals(student1, student3) = (" + student1.StudentId +  ") " + Equals(student1,student3));
 
         }
     }

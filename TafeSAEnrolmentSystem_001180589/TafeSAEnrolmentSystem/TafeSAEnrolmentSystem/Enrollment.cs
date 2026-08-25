@@ -8,7 +8,7 @@ namespace TafeSAEnrolmentSystem
 {
     class Enrollment
     {
-        public static readonly DateTime DEFAULT_DATE_ENROLLED = new DateTime(1999, 01, 01);
+        public static readonly DateTime DEFAULT_DATE_ENROLLED = new DateTime(1900, 01, 01);
         public const string DEFAULT_GRADE_ID = "No grade provided";
         public const string DEFAULT_SEMESTER = "No semester provided";
 

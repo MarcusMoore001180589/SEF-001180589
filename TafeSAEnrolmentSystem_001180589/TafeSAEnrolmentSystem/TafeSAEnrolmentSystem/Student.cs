@@ -11,7 +11,7 @@ namespace TafeSAEnrolmentSystem
     {
         public const string DEFAULT_STUDENT_ID = "No studentID provided";
         public const string DEFAULT_PROGRAM = "No program provided";
-        public static readonly DateTime DEFAULT_DATE_REGISTERED = new DateTime(1999, 01, 01);
+        public static readonly DateTime DEFAULT_DATE_REGISTERED = new DateTime(1900, 01, 01);
 
 
 
@@ -21,7 +21,8 @@ namespace TafeSAEnrolmentSystem
         { get; set; }
         public DateTime DateRegistered
         { get; set; }
-
+        public Enrollment Enrollment 
+        { get; set; }
 
 
         /// no arg constructor for the Student class that initializes the 
@@ -32,11 +33,13 @@ namespace TafeSAEnrolmentSystem
         /// all arg constructor for the Student class that takes in name, email, phone number, student ID, program, and registration date as parameters 
         /// and initializes the corresponding properties of the Student object. 
         /// It also calls the base constructor of the Person class to initialize the name, email, and phone number properties.
-        public Student(string name, string email, string phoneNumber, string studentId, string program, DateTime dateRegistered) : base(name, email, phoneNumber)
+        public Student(string name, string email, string phoneNumber, string studentId, Address address, string program, DateTime dateRegistered, Enrollment enrollment) 
+            : base(name, email, phoneNumber, address)
         {
             this.StudentId = studentId;
             this.Program = program;
             this.DateRegistered = dateRegistered;
+            this.Enrollment = enrollment;
 
 
         }
@@ -61,14 +64,14 @@ namespace TafeSAEnrolmentSystem
         public override string ToString()
         {
             return base.ToString() + "StudentID: " + StudentId + "\nProgram: " + Program +
-                "\nDate Registered: " + DateRegistered;
+                "\nDate Registered: " + DateRegistered + "\n" + Enrollment;
         }
 
         /// <summary>
         /// override the Equals method to compare two Student objects based on their StudentId property
         /// </summary>
         /// <param name="obj"></param>
-        /// <returns></returns>
+        /// <returns>boolean</returns>
         public override bool Equals(object obj)
         {
             if (obj == null) // null check
@@ -90,7 +93,7 @@ namespace TafeSAEnrolmentSystem
         /// <summary>
         /// get hash code for the student object based on the StudentId property
         /// </summary>
-        /// <returns></returns>
+        /// <returns>int</returns>
         public override int GetHashCode()
         {
             return this.StudentId.GetHashCode();
@@ -119,22 +122,22 @@ namespace TafeSAEnrolmentSystem
         }
 
         /// <summary>
-        /// equals method to compare two objects for equality based on their StudentId property
+        /// equals method to compare two objects for equality based on their StudentId property aswell as null and reference checks
+        /// this is  through the operator overloads for == and != to compare two Student objects based on their StudentId property
         /// </summary>
-        /// <param name="obj1"></param>
-        /// <param name="obj2"></param>
+        /// <param name = "obj1" ></ param >
+        /// < param name="obj2"></param>
         /// <returns>bool</returns>
         public static bool Equals(object obj1, object obj2)
         {
             if (obj1 == obj2)
                 return true;
-            if (obj1 == null || obj2 == null)
+            if (obj1 == null || obj2 == null) // Check for null values
                 return false;
             else
-                return obj1.Equals(obj2);
-
+                return obj1.Equals(obj2); // call the virtual Equals method 
 
         }
 
-    }
+        }
 }
