@@ -27,13 +27,13 @@ namespace TafeSAEnrolmentSystem
 
         /// no arg constructor for the Student class that initializes the 
         /// StudentId, Program, and DateRegistered properties to their default values.
-        public Student() : this(DEFAULT_STUDENT_ID, DEFAULT_PROGRAM, DEFAULT_DATE_REGISTERED)
+        public Student() : this(DEFAULT_STUDENT_ID, DEFAULT_PROGRAM, DEFAULT_DATE_REGISTERED, DEFAULT_NAME, DEFAULT_EMAIL, DEFAULT_PHONE_NUMBER, new Address(), new Enrollment())
         { }
 
         /// all arg constructor for the Student class that takes in name, email, phone number, student ID, program, and registration date as parameters 
         /// and initializes the corresponding properties of the Student object. 
         /// It also calls the base constructor of the Person class to initialize the name, email, and phone number properties.
-        public Student(string name, string email, string phoneNumber, string studentId, Address address, string program, DateTime dateRegistered, Enrollment enrollment) 
+        public Student(string studentId, string program, DateTime dateRegistered, string name, string email, string phoneNumber, Address address, Enrollment enrollment) 
             : base(name, email, phoneNumber, address)
         {
             this.StudentId = studentId;
@@ -44,19 +44,12 @@ namespace TafeSAEnrolmentSystem
 
         }
 
-        /// student constructor with student ID, program, and registration date provided
-        public Student(string studentId, string program, DateTime dateRegistered)
-        {
-            this.StudentId = studentId;
-            this.Program = program;
-            this.DateRegistered = dateRegistered;
+       
 
-        }
-
-        /// student constructor with only student ID provided
-        public Student(string studentId)
+        /// one arg student constructor with only student ID provided
+        public Student(string studentID) : this(studentID, DEFAULT_PROGRAM, DEFAULT_DATE_REGISTERED, DEFAULT_NAME, DEFAULT_EMAIL, DEFAULT_PHONE_NUMBER, new Address(), new Enrollment())
         {
-            this.StudentId = studentId;
+            
         }
 
         /// override ToString method that returns a string representation of the Student object, 

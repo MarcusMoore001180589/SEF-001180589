@@ -90,9 +90,7 @@ namespace TafeSAEnrolmentSystem
             student2.StudentId = "99887766"; 
             Console.WriteLine("\nTesting 1 arg\n" + student2);
 
-            Student student3 = new Student("Marcus", "sloth@someemail.com", "+0101010101", "00112233", address2, 
-                "Cert 3", new DateTime(2026, 06, 11), enrollment2);
-
+            Student student3 = new Student("00112233", "Cert 3", new DateTime(2026, 06, 11), "Marcus", "sloth@someemail.com", "+0101010101", address2, enrollment2);
 
             Console.WriteLine("\nTesting the all arg \n" + student3);
 
