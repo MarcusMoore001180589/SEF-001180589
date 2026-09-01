@@ -27,7 +27,7 @@ namespace TafeSAEnrolmentSystem
 
         /// no arg constructor for the Student class that initializes the 
         /// StudentId, Program, and DateRegistered properties to their default values.
-        public Student() : this(DEFAULT_STUDENT_ID, DEFAULT_PROGRAM, DEFAULT_DATE_REGISTERED)
+        public Student() : this(DEFAULT_STUDENT_ID, DEFAULT_PROGRAM, DEFAULT_DATE_REGISTERED, DEFAULT_NAME, DEFAULT_EMAIL, DEFAULT_PHONE_NUMBER, new Address(), new Enrollment())
         { }
 
         /// all arg constructor for the Student class that takes in name, email, phone number, student ID, program, and registration date as parameters 
@@ -43,12 +43,7 @@ namespace TafeSAEnrolmentSystem
 
 
         }
-        public Student(string studentId, string program, DateTime dateRegistered) : this(studentId, program, dateRegistered, DEFAULT_NAME, DEFAULT_EMAIL, DEFAULT_PHONE_NUMBER, new Address(), new Enrollment())
-        {
-
-        }
-
-
+     
         /// one arg student constructor with only student ID provided
         public Student(string studentID) : this(studentID, DEFAULT_PROGRAM, DEFAULT_DATE_REGISTERED, DEFAULT_NAME, DEFAULT_EMAIL, DEFAULT_PHONE_NUMBER, new Address(), new Enrollment())
         {
