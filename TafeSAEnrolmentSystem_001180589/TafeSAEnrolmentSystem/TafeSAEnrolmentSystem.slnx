@@ -1,3 +1,4 @@
 <Solution>
   <Project Path="TafeSAEnrolmentSystem/TafeSAEnrolmentSystem.csproj" Id="bddb57bc-8365-4743-87c1-26666a6b5e4d" />
+  <Project Path="Unit_Test/Unit_Test.csproj" Id="a52245ef-486b-467b-92f0-619a626fe69e" />
 </Solution>
