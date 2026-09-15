@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\TafeSAEnrolmentSystem\\SEF-001180589\\TafeSAEnrolmentSystem_001180589\\TafeSAEnrolmentSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{29BC2F52-8C19-47EA-A1C2-F571E36128E9}|NUnit_Test\\NUnit_Test.csproj|c:\\tafesaenrolmentsystem\\sef-001180589\\tafesaenrolmentsystem_001180589\\tafesaenrolmentsystem\\nunit_test\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29BC2F52-8C19-47EA-A1C2-F571E36128E9}|NUnit_Test\\NUnit_Test.csproj|solutionrelative:nunit_test\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BDDB57BC-8365-4743-87C1-26666A6B5E4D}|TafeSAEnrolmentSystem\\TafeSAEnrolmentSystem.csproj|c:\\tafesaenrolmentsystem\\sef-001180589\\tafesaenrolmentsystem_001180589\\tafesaenrolmentsystem\\tafesaenrolmentsystem\\utility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BDDB57BC-8365-4743-87C1-26666A6B5E4D}|TafeSAEnrolmentSystem\\TafeSAEnrolmentSystem.csproj|solutionrelative:tafesaenrolmentsystem\\utility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29BC2F52-8C19-47EA-A1C2-F571E36128E9}|NUnit_Test\\NUnit_Test.csproj|c:\\tafesaenrolmentsystem\\sef-001180589\\tafesaenrolmentsystem_001180589\\tafesaenrolmentsystem\\nunit_test\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29BC2F52-8C19-47EA-A1C2-F571E36128E9}|NUnit_Test\\NUnit_Test.csproj|solutionrelative:nunit_test\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BDDB57BC-8365-4743-87C1-26666A6B5E4D}|TafeSAEnrolmentSystem\\TafeSAEnrolmentSystem.csproj|C:\\TafeSAEnrolmentSystem\\SEF-001180589\\TafeSAEnrolmentSystem_001180589\\TafeSAEnrolmentSystem\\tafesaenrolmentsystem\\model\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,12 +19,12 @@
       "RelativeMoniker": "D:0:0:{BDDB57BC-8365-4743-87C1-26666A6B5E4D}|TafeSAEnrolmentSystem\\TafeSAEnrolmentSystem.csproj|solutionrelative:tafesaenrolmentsystem\\model\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BDDB57BC-8365-4743-87C1-26666A6B5E4D}|TafeSAEnrolmentSystem\\TafeSAEnrolmentSystem.csproj|C:\\TafeSAEnrolmentSystem\\SEF-001180589\\TafeSAEnrolmentSystem_001180589\\TafeSAEnrolmentSystem\\tafesaenrolmentsystem\\model\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BDDB57BC-8365-4743-87C1-26666A6B5E4D}|TafeSAEnrolmentSystem\\TafeSAEnrolmentSystem.csproj|solutionrelative:tafesaenrolmentsystem\\model\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BDDB57BC-8365-4743-87C1-26666A6B5E4D}|TafeSAEnrolmentSystem\\TafeSAEnrolmentSystem.csproj|C:\\TafeSAEnrolmentSystem\\SEF-001180589\\TafeSAEnrolmentSystem_001180589\\TafeSAEnrolmentSystem\\tafesaenrolmentsystem\\model\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BDDB57BC-8365-4743-87C1-26666A6B5E4D}|TafeSAEnrolmentSystem\\TafeSAEnrolmentSystem.csproj|solutionrelative:tafesaenrolmentsystem\\model\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDDB57BC-8365-4743-87C1-26666A6B5E4D}|TafeSAEnrolmentSystem\\TafeSAEnrolmentSystem.csproj|C:\\TafeSAEnrolmentSystem\\SEF-001180589\\TafeSAEnrolmentSystem_001180589\\TafeSAEnrolmentSystem\\tafesaenrolmentsystem\\model\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDDB57BC-8365-4743-87C1-26666A6B5E4D}|TafeSAEnrolmentSystem\\TafeSAEnrolmentSystem.csproj|solutionrelative:tafesaenrolmentsystem\\model\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BDDB57BC-8365-4743-87C1-26666A6B5E4D}|TafeSAEnrolmentSystem\\TafeSAEnrolmentSystem.csproj|C:\\TafeSAEnrolmentSystem\\SEF-001180589\\TafeSAEnrolmentSystem_001180589\\TafeSAEnrolmentSystem\\tafesaenrolmentsystem\\model\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -59,24 +59,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Subject.cs",
-              "DocumentMoniker": "C:\\TafeSAEnrolmentSystem\\SEF-001180589\\TafeSAEnrolmentSystem_001180589\\TafeSAEnrolmentSystem\\TafeSAEnrolmentSystem\\Model\\Subject.cs",
-              "RelativeDocumentMoniker": "TafeSAEnrolmentSystem\\Model\\Subject.cs",
-              "ToolTip": "C:\\TafeSAEnrolmentSystem\\SEF-001180589\\TafeSAEnrolmentSystem_001180589\\TafeSAEnrolmentSystem\\TafeSAEnrolmentSystem\\Model\\Subject.cs",
-              "RelativeToolTip": "TafeSAEnrolmentSystem\\Model\\Subject.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-14T07:45:18.877Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\TafeSAEnrolmentSystem\\SEF-001180589\\TafeSAEnrolmentSystem_001180589\\TafeSAEnrolmentSystem\\TafeSAEnrolmentSystem\\Model\\Student.cs",
               "RelativeDocumentMoniker": "TafeSAEnrolmentSystem\\Model\\Student.cs",
               "ToolTip": "C:\\TafeSAEnrolmentSystem\\SEF-001180589\\TafeSAEnrolmentSystem_001180589\\TafeSAEnrolmentSystem\\TafeSAEnrolmentSystem\\Model\\Student.cs",
               "RelativeToolTip": "TafeSAEnrolmentSystem\\Model\\Student.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAiwAcAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-14T07:45:15.385Z"
             },
@@ -88,7 +76,7 @@
               "RelativeDocumentMoniker": "TafeSAEnrolmentSystem\\Model\\Enrollment.cs",
               "ToolTip": "C:\\TafeSAEnrolmentSystem\\SEF-001180589\\TafeSAEnrolmentSystem_001180589\\TafeSAEnrolmentSystem\\TafeSAEnrolmentSystem\\Model\\Enrollment.cs",
               "RelativeToolTip": "TafeSAEnrolmentSystem\\Model\\Enrollment.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-14T07:45:10.714Z"
             },
@@ -106,16 +94,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Utility.cs",
               "DocumentMoniker": "C:\\TafeSAEnrolmentSystem\\SEF-001180589\\TafeSAEnrolmentSystem_001180589\\TafeSAEnrolmentSystem\\TafeSAEnrolmentSystem\\Utility.cs",
               "RelativeDocumentMoniker": "TafeSAEnrolmentSystem\\Utility.cs",
               "ToolTip": "C:\\TafeSAEnrolmentSystem\\SEF-001180589\\TafeSAEnrolmentSystem_001180589\\TafeSAEnrolmentSystem\\TafeSAEnrolmentSystem\\Utility.cs",
               "RelativeToolTip": "TafeSAEnrolmentSystem\\Utility.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAOYAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-14T07:41:41.323Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\TafeSAEnrolmentSystem\\SEF-001180589\\TafeSAEnrolmentSystem_001180589\\TafeSAEnrolmentSystem\\NUnit_Test\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "NUnit_Test\\UnitTest1.cs",
+              "ToolTip": "C:\\TafeSAEnrolmentSystem\\SEF-001180589\\TafeSAEnrolmentSystem_001180589\\TafeSAEnrolmentSystem\\NUnit_Test\\UnitTest1.cs",
+              "RelativeToolTip": "NUnit_Test\\UnitTest1.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAowDYAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-14T07:44:00.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Subject.cs",
+              "DocumentMoniker": "C:\\TafeSAEnrolmentSystem\\SEF-001180589\\TafeSAEnrolmentSystem_001180589\\TafeSAEnrolmentSystem\\TafeSAEnrolmentSystem\\Model\\Subject.cs",
+              "RelativeDocumentMoniker": "TafeSAEnrolmentSystem\\Model\\Subject.cs",
+              "ToolTip": "C:\\TafeSAEnrolmentSystem\\SEF-001180589\\TafeSAEnrolmentSystem_001180589\\TafeSAEnrolmentSystem\\TafeSAEnrolmentSystem\\Model\\Subject.cs",
+              "RelativeToolTip": "TafeSAEnrolmentSystem\\Model\\Subject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-14T07:45:18.877Z"
             },
             {
               "$type": "Document",
@@ -128,19 +141,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-14T07:45:12.804Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UnitTest1.cs",
-              "DocumentMoniker": "C:\\TafeSAEnrolmentSystem\\SEF-001180589\\TafeSAEnrolmentSystem_001180589\\TafeSAEnrolmentSystem\\NUnit_Test\\UnitTest1.cs",
-              "RelativeDocumentMoniker": "NUnit_Test\\UnitTest1.cs",
-              "ToolTip": "C:\\TafeSAEnrolmentSystem\\SEF-001180589\\TafeSAEnrolmentSystem_001180589\\TafeSAEnrolmentSystem\\NUnit_Test\\UnitTest1.cs",
-              "RelativeToolTip": "NUnit_Test\\UnitTest1.cs",
-              "ViewState": "AgIAAGEAAAAAo7H2d5YSwJYAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-14T07:44:00.779Z",
-              "EditorCaption": ""
             }
           ]
         }
